@@ -18,7 +18,7 @@
 ## 一键运行命令（示例）
 
 ```powershell
-cd lab_IPC四机制/Test_v3-master
+cd ywtbuilder-windows-ipc-demo
 pwsh -NoLogo -NoProfile -ExecutionPolicy Bypass -Command 'Write-Host \"请使用 VS2022 打开 Test_v3.sln 并以 Debug|x64 构建\"'
 ```
 
@@ -43,4 +43,5 @@ pwsh -NoLogo -NoProfile -ExecutionPolicy Bypass -Command 'Write-Host \"请使用
 3. 命名管道为何会出现连接边界问题？
 4. 邮件槽的一对多优势与限制是什么？
 5. 如何把这套实现扩展到跨机器通信？
+
 

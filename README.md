@@ -247,7 +247,7 @@ flowchart LR
 ### 目录结构
 
 ```
-Test_v3-master/
+ywtbuilder-windows-ipc-demo/
 ├── Test_v3.sln                 # Visual Studio 解决方案文件
 ├── comm/
 │   ├── comm.c                  # 四机制通信实现（核心逻辑）
@@ -342,3 +342,4 @@ Test_v3-master/
 
 **维护者：** YWT  
 **联系方式：** GitHub Issues
+
