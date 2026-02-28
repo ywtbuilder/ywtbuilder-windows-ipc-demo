@@ -1,4 +1,4 @@
-# lab_IPC四机制 展示证据页
+# ywtbuilder-windows-ipc-demo 展示证据页
 
 ## 一句话价值
 
@@ -6,7 +6,7 @@
 
 ## 1 分钟演示视频
 
-- 文件：`docs/showcase/lab_IPC四机制/demo.mp4`
+- 文件：`docs/showcase/ywtbuilder-windows-ipc-demo/demo.mp4`
 - 建议镜头：依次切换 Socket/共享内存/命名管道/邮件槽并发送同一消息
 
 ## 3 张关键截图
@@ -43,5 +43,6 @@ pwsh -NoLogo -NoProfile -ExecutionPolicy Bypass -Command 'Write-Host \"请使用
 3. 命名管道为何会出现连接边界问题？
 4. 邮件槽的一对多优势与限制是什么？
 5. 如何把这套实现扩展到跨机器通信？
+
 
 

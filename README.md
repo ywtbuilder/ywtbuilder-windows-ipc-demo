@@ -29,23 +29,23 @@
 ## ✨ 项目展示
 
 <p align="center">
-  <video src="docs/showcase/lab_IPC四机制/demo.mp4" width="720" controls>
-    你的浏览器不支持 video 标签，<a href="docs/showcase/lab_IPC四机制/demo.mp4">点此下载视频</a>。
+  <video src="docs/showcase/ywtbuilder-windows-ipc-demo/demo.mp4" width="720" controls>
+    你的浏览器不支持 video 标签，<a href="docs/showcase/ywtbuilder-windows-ipc-demo/demo.mp4">点此下载视频</a>。
   </video>
 </p>
 
 <p align="center">
-  <img src="docs/showcase/lab_IPC四机制/shot-01.png" alt="机制选择菜单" width="720"/>
+  <img src="docs/showcase/ywtbuilder-windows-ipc-demo/shot-01.png" alt="机制选择菜单" width="720"/>
 </p>
 <p align="center"><i>↑ Receiver 启动后的机制选择菜单（1~4 对应四种 IPC 机制）</i></p>
 
 <p align="center">
-  <img src="docs/showcase/lab_IPC四机制/shot-02.png" alt="发送与接收消息" width="720"/>
+  <img src="docs/showcase/ywtbuilder-windows-ipc-demo/shot-02.png" alt="发送与接收消息" width="720"/>
 </p>
 <p align="center"><i>↑ Sender 发送消息，Receiver 实时接收并打印——同一套框架覆盖四种机制</i></p>
 
 <p align="center">
-  <img src="docs/showcase/lab_IPC四机制/shot-03.png" alt="构建产物" width="720"/>
+  <img src="docs/showcase/ywtbuilder-windows-ipc-demo/shot-03.png" alt="构建产物" width="720"/>
 </p>
 <p align="center"><i>↑ Debug|x64 构建产物：comm.lib、sender.exe、receiver.exe 全部生成成功</i></p>
 
@@ -122,7 +122,7 @@ Build → Build Solution（或 Ctrl+Shift+B）
 确认"输出"面板显示：`receiver.exe`、`sender.exe`、`comm.lib` 生成成功，错误数为 0。
 
 <p align="center">
-  <img src="docs/showcase/lab_IPC四机制/shot-03.png" alt="构建成功截图" width="720"/>
+  <img src="docs/showcase/ywtbuilder-windows-ipc-demo/shot-03.png" alt="构建成功截图" width="720"/>
 </p>
 <p align="center"><i>↑ 看到三个产物成功生成表示构建通过</i></p>
 
@@ -265,7 +265,7 @@ ywtbuilder-windows-ipc-demo/
 │   └── Debug/                  # 构建产物（comm.lib / sender.exe / receiver.exe）
 └── docs/
     └── showcase/
-        └── lab_IPC四机制/       # 截图与视频资源
+        └── ywtbuilder-windows-ipc-demo/       # 截图与视频资源
 ```
 
 ### 四机制推荐启动顺序与期望现象
@@ -342,4 +342,5 @@ ywtbuilder-windows-ipc-demo/
 
 **维护者：** YWT  
 **联系方式：** GitHub Issues
+
 
